@@ -1,0 +1,12 @@
+[submodule "juno-dao-contracts"]
+	path = juno-dao-contracts
+	url = https://github.com/patiee/juno-dao-contracts
+	branch = main
+[submodule "juno-smart-contracts"]
+	path = juno-smart-contracts
+	url = https://github.com/patiee/juno-smart-contracts
+	branch = main
+[submodule "juno-contracts-indexer"]
+	path = juno-contracts-indexer
+	url = https://github.com/patiee/juno-contracts-indexer
+	branch = main
