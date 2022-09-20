@@ -54,6 +54,8 @@ Inside config file you can specify which tables from database you want to proces
 }
 ```
 
+Some messages like `msg_execute_contracts` don't have code id inside transaction and connection with Juno grcp is required to fetch this data. Please make sure that you update config with right endpoint.
+
 
 ## Graphql for contract messages
 Subquery won't catch new entities, but we can start new graphql server for hosting them all from database. Inside `juno-contracts-indexer` you can start hosting graphql server with:
